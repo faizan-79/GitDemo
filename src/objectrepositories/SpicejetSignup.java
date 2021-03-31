@@ -24,7 +24,7 @@ public class SpicejetSignup {
 	public WebElement LastName() {
 		return driver.findElement(lname);
 	}
-	
+
 	public WebElement Password() {
 		return driver.findElement(pswd);
 	}
