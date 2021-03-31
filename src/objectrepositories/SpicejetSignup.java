@@ -14,6 +14,7 @@ public class SpicejetSignup {
 
 	By fname = By.cssSelector("#CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TextBoxFirstName");
 	By lname = By.cssSelector("#CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TextBoxLastName");
+	By pswd = By.cssSelector("#CONTROLGROUPREGISTERVIEW_MemberInputRegisterView_PasswordFieldAgentPassword");
 	By submit = By.cssSelector("#CONTROLGROUPREGISTERVIEW_ButtonSubmit");
 
 	public WebElement FirstName() {
@@ -22,6 +23,10 @@ public class SpicejetSignup {
 
 	public WebElement LastName() {
 		return driver.findElement(lname);
+	}
+	
+	public WebElement Password() {
+		return driver.findElement(pswd);
 	}
 
 	public WebElement Submit() {
