@@ -23,7 +23,7 @@ public class LoginSpicejetApplication {
 		SpicejetSignup rs = new SpicejetSignup(driver);
 		rs.FirstName().sendKeys("helloooo");
 		rs.LastName().sendKeys("hiiii");
-		rs.Email().sendKeys("abc@gmail.com");
+		rs.Password().sendKeys("123456");
 		rs.Submit().click();
 	}
 
