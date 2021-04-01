@@ -21,9 +21,9 @@ public class LoginSpicejetApplication {
 		// sj.Login().click();
 		sj.Signup().click();
 		SpicejetSignup rs = new SpicejetSignup(driver);
-		rs.FirstName().sendKeys("HARRY POTTER");
-		rs.LastName().sendKeys("JOHNY DEPP");
-		rs.Password().sendKeys("ABC*123456");
+		rs.FirstName().sendKeys("JACK SPARROW");
+		rs.LastName().sendKeys("DEAN JONES");
+		rs.Password().sendKeys("ABC*12345689897");
 		rs.Submit().click();
 	}
 	
