@@ -32,4 +32,5 @@ public class SpicejetSignup {
 	public WebElement Submit() {
 		return driver.findElement(submit);
 	}
+	
 }

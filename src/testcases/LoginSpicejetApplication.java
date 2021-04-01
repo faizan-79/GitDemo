@@ -28,9 +28,9 @@ public class LoginSpicejetApplication {
 		rs.LastName().sendKeys("hiiii");
 		rs.Password().sendKeys("123456");
 
-		rs.FirstName().sendKeys("HARRY POTTER");
-		rs.LastName().sendKeys("JOHNY DEPP");
-		rs.Password().sendKeys("ABC*123456");
+		rs.FirstName().sendKeys("JACK SPARROW");
+		rs.LastName().sendKeys("DEAN JONES");
+		rs.Password().sendKeys("ABC*1234568985646464644646464646");
 		rs.Submit().click();
 	}
 
