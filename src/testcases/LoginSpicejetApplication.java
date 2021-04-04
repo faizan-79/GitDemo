@@ -21,11 +21,9 @@ public class LoginSpicejetApplication {
 		// sj.Login().click();
 		sj.Signup().click();
 		SpicejetSignup rs = new SpicejetSignup(driver);
-<<<<<<< HEAD
 		rs.FirstName().sendKeys("JACK SPARROW");
 		rs.LastName().sendKeys("DEAN JONES");
 		rs.Password().sendKeys("ABC*12345689897");
-=======
 
 		rs.FirstName().sendKeys("HARRY POTTER");
 		rs.LastName().sendKeys("BOB");
@@ -35,8 +33,7 @@ public class LoginSpicejetApplication {
 
 		rs.FirstName().sendKeys("KATRINA KAIF");
 		rs.LastName().sendKeys("AAMIR KHAN");
-		rs.Password().sendKeys("ABC*12345689856dsfsdfSFFFFFFFFFFSSSSSSSSSS");
->>>>>>> master
+		rs.Password().sendKeys("ABC*FFFFFFFSSSSSSSSSS");
 		rs.Submit().click();
 	}
 
