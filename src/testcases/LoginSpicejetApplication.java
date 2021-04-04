@@ -33,7 +33,7 @@ public class LoginSpicejetApplication {
 
 		rs.FirstName().sendKeys("KATRINA KAIF");
 		rs.LastName().sendKeys("AAMIR KHAN");
-		rs.Password().sendKeys("ABC*FFFFFFFSSSSSSSSSS");
+		rs.Password().sendKeys("ABC*FFFFFFFSSSSSSSSSdasdasdasdsdasdadsssssssssssssssssssssssssssssssssssssS");
 		rs.Submit().click();
 	}
 
