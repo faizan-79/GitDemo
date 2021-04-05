@@ -22,7 +22,14 @@ public class LoginSpicejetApplication {
 		sj.Signup().click();
 		SpicejetSignup rs = new SpicejetSignup(driver);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+
+		rs.FirstName().sendKeys("JACK SPARROW");
+		rs.LastName().sendKeys("DEAN JONES");
+		rs.Password().sendKeys("ABC*12345689897");
+>>>>>>> develop
 		rs.FirstName().sendKeys("JACK SPARROW");
 		rs.LastName().sendKeys("DEAN JONES");
 		rs.Password().sendKeys("ABC*12345689897");
@@ -31,7 +38,11 @@ public class LoginSpicejetApplication {
 		rs.FirstName().sendKeys("JACK SPARROW");
 		rs.LastName().sendKeys("DEAN JONES");
 		rs.Password().sendKeys("ABC*12345689897");
+<<<<<<< HEAD
 >>>>>>> 1f8483cbf2f3f8e034503a00a899af5d9e586ace
+=======
+
+>>>>>>> develop
 
 		rs.FirstName().sendKeys("HARRY POTTER");
 		rs.LastName().sendKeys("BOB");
@@ -39,13 +50,20 @@ public class LoginSpicejetApplication {
 		rs.LastName().sendKeys("hiiii");
 		rs.Password().sendKeys("123456");
 
-		rs.FirstName().sendKeys("KATRINA KAIF");
+		rs.FirstName().sendKeys("KAREEEEEEEEENAAAAAA KAPOOOOR");
 		rs.LastName().sendKeys("AAMIR KHAN");
+<<<<<<< HEAD
 <<<<<<< HEAD
 		rs.Password().sendKeys("ABC*12345689856dsfsdfSFFFFFFFFFFSSSSSSSSSS");
 =======
 		rs.Password().sendKeys("ABC*FFFFFFFSSSSSSSSSS");
 >>>>>>> 1f8483cbf2f3f8e034503a00a899af5d9e586ace
+=======
+
+		rs.Password().sendKeys("ABC*12345689856dsfsdfSFFF");
+		rs.Password().sendKeys("ABC*FFFFFFFSSSSSSSSSS");
+		rs.Password().sendKeys("ABC*FFFFFFFSSSSSSSSSdasdasdasdsdasdadssssss");
+>>>>>>> develop
 		rs.Submit().click();
 	}
 
