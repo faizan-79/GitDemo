@@ -40,7 +40,7 @@ public class LoginSpicejetApplication {
 		rs.LastName().sendKeys("hiiii");
 		rs.Password().sendKeys("123456");
 
-		rs.FirstName().sendKeys("KAREEEEEEEEENAAAAAA KAPOOOOR");
+		rs.FirstName().sendKeys("KAREEEEEEEEENAAAAAA KAPOOOOR and SAAALLMAAAN KHAAAANN");
 		rs.LastName().sendKeys("AAMIR KHAN");
 
 		rs.Password().sendKeys("ABC*12345689856dsfsdfSFFF");
